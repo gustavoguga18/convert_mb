@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<a href="https://www.smartsolucoes.com.br/">
+  <img src="C:\Users\User G3\OneDrive\Documentos\conversao\conversao\Projeto_Conversao\1744069587676.png" alt="Smart Solucoes" width="150"> 
+</a>
+
+<head>
+  <title>Conversor de MB para Mbps</title>
+</head>
+<body>
+  <h1>Conversor de MegaBytes (MB) para Megabits por segundo (Mbps)</h1>
+  <label for="mbInput">Digite a quantidade de Megas da sua internet :</label>
+  <input type="number" id="mbInput" placeholder="Ex: 100">
+  <button onclick="converter()">CALCULAR</button>
+
+  <p id="resultado"></p>
+
+  <script>
+    function converter() {
+      var mb = document.getElementById("mbInput").value;
+      if (mb === "") {
+        document.getElementById("resultado").innerText = "Por favor, insira um valor.";
+        return;
+      }
+      var mbits = mb / 8;
+      document.getElementById("resultado").innerText =  mb + " Megas Faz um Download  a "+ mbits + " MegaBytes por segundo (MBps) !";
+    }
+  </script>
+</body>
+<a href="https://api.whatsapp.com/send?phone=558591462034&text=Oi,%20eu%20vi%20o%20plano%20de%201%20Giga%20no%20site,%20quero%20contratar">
+  <img src="C:\Users\User G3\OneDrive\Documentos\conversao\conversao\Projeto_Conversao\1giga.png" alt="1 Giga" width="400">
+</a>
+
+<a href="https://api.whatsapp.com/send?phone=558591462034&text=Oi,%20eu%20vi%20o%20plano%20de%20600%20megas%20no%20site,%20quero%20contratar">
+  <img src="C:\Users\User G3\OneDrive\Documentos\conversao\conversao\Projeto_Conversao\600megas.png" alt="600 Megas" width="400">
+</a>
+
+<a href="https://api.whatsapp.com/send?phone=558591462034&text=Oi,%20eu%20vi%20o%20plano%20de%20300%20Megas%20no%20site,%20quero%20contratar">
+  <img src="C:\Users\User G3\OneDrive\Documentos\conversao\conversao\Projeto_Conversao\300megas.png" alt="300 Megas" width="400">
+</a>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h2> 
+Autor: Gustavo Barbosa
+</h2>
+<h3>
+<a href="https://github.com/gustavoguga18">Github</a>
+</h3>
+
+</html>
